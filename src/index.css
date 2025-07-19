@@ -8,26 +8,33 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Natural Garden Color Palette */
+    --background: 38 25% 97%;  /* Warm cream */
+    --foreground: 150 25% 15%;  /* Deep forest green */
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 150 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 150 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 152 45% 25%;  /* Deep forest green */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 120 25% 85%;  /* Light sage green */
+    --secondary-foreground: 150 25% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 38 15% 92%;  /* Light beige */
+    --muted-foreground: 150 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 145 40% 35%;  /* Moss green */
+    --accent-foreground: 0 0% 100%;
+    
+    --emerald: 160 65% 45%;  /* Emerald green */
+    --emerald-foreground: 0 0% 100%;
+    
+    --sage: 120 15% 75%;  /* Sage green */
+    --sage-foreground: 150 25% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -56,26 +63,32 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 150 25% 8%;  /* Dark forest */
+    --foreground: 38 25% 95%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 150 25% 10%;
+    --card-foreground: 38 25% 95%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 150 25% 10%;
+    --popover-foreground: 38 25% 95%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 145 40% 55%;  /* Bright moss green */
+    --primary-foreground: 150 25% 8%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 150 15% 20%;
+    --secondary-foreground: 38 25% 95%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 150 15% 15%;
+    --muted-foreground: 120 10% 65%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 160 65% 55%;  /* Bright emerald */
+    --accent-foreground: 150 25% 8%;
+    
+    --emerald: 160 65% 55%;
+    --emerald-foreground: 150 25% 8%;
+    
+    --sage: 120 15% 35%;
+    --sage-foreground: 38 25% 95%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
@@ -94,12 +107,26 @@ All colors MUST be HSL.
   }
 }
 
+/* Custom gradients and animations */
+:root {
+  --gradient-nature: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+  --gradient-leaf: linear-gradient(180deg, hsl(var(--emerald)), hsl(var(--accent)));
+  --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
+  --shadow-natural: 0 10px 30px -10px hsl(var(--primary) / 0.15);
+  --shadow-glow: 0 0 40px hsl(var(--emerald) / 0.2);
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 @layer base {
   * {
     @apply border-border;
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-lato;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins;
   }
 }
