@@ -19,7 +19,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="text-xl font-bold text-primary">
-            Gardening & Landscaping Co.
+            Empresa de Jardinagem & Paisagismo
           </div>
           
           {/* Desktop Navigation */}
@@ -28,31 +28,31 @@ const Header = () => {
               onClick={() => scrollToSection('home')}
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
-              Home
+              Início
             </button>
             <button 
               onClick={() => scrollToSection('about')}
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
-              About
+              Sobre
             </button>
             <button 
               onClick={() => scrollToSection('services')}
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
-              Services
+              Serviços
             </button>
             <button 
               onClick={() => scrollToSection('portfolio')}
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
-              Portfolio
+              Portfólio
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
-              Contact
+              Contato
             </button>
           </nav>
           
@@ -61,18 +61,18 @@ const Header = () => {
             <Button 
               variant="outline" 
               size="sm"
-              onClick={() => window.open('tel:+15551234567')}
+              onClick={() => window.open('tel:+5511999999999')}
               className="flex items-center space-x-2"
             >
               <Phone className="w-4 h-4" />
-              <span>Call Now</span>
+              <span>Ligar Agora</span>
             </Button>
             <Button 
               variant="default"
               size="sm"
               onClick={() => scrollToSection('contact')}
             >
-              Get Quote
+              Solicitar Orçamento
             </Button>
           </div>
           
@@ -93,48 +93,48 @@ const Header = () => {
                 onClick={() => scrollToSection('home')}
                 className="text-left text-foreground hover:text-primary transition-colors font-medium"
               >
-                Home
+                Início
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
                 className="text-left text-foreground hover:text-primary transition-colors font-medium"
               >
-                About
+                Sobre
               </button>
               <button 
                 onClick={() => scrollToSection('services')}
                 className="text-left text-foreground hover:text-primary transition-colors font-medium"
               >
-                Services
+                Serviços
               </button>
               <button 
                 onClick={() => scrollToSection('portfolio')}
                 className="text-left text-foreground hover:text-primary transition-colors font-medium"
               >
-                Portfolio
+                Portfólio
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
                 className="text-left text-foreground hover:text-primary transition-colors font-medium"
               >
-                Contact
+                Contato
               </button>
               <div className="flex flex-col space-y-2 pt-4 border-t">
                 <Button 
                   variant="outline" 
                   size="sm"
-                  onClick={() => window.open('tel:+15551234567')}
+                  onClick={() => window.open('tel:+5511999999999')}
                   className="justify-start"
                 >
                   <Phone className="w-4 h-4 mr-2" />
-                  Call Now
+                  Ligar Agora
                 </Button>
                 <Button 
                   variant="default"
                   size="sm"
                   onClick={() => scrollToSection('contact')}
                 >
-                  Get Quote
+                  Solicitar Orçamento
                 </Button>
               </div>
             </nav>

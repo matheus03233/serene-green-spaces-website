@@ -8,23 +8,23 @@ import heroImage from "@/assets/hero-garden.jpg";
 const portfolioItems = [
   {
     image: residentialGarden,
-    title: "Residential Garden Transformation",
-    description: "Complete backyard makeover with flower beds and seating area"
+    title: "Transformação de Jardim Residencial",
+    description: "Reforma completa do quintal com canteiros de flores e área de estar"
   },
   {
     image: commercialLandscaping,
-    title: "Commercial Landscaping",
-    description: "Professional office complex landscaping design"
+    title: "Paisagismo Comercial",
+    description: "Design profissional de paisagismo para complexo de escritórios"
   },
   {
     image: landscapingWork,
-    title: "Garden Maintenance",
-    description: "Regular maintenance and seasonal care services"
+    title: "Manutenção de Jardins",
+    description: "Serviços regulares de manutenção e cuidados sazonais"
   },
   {
     image: heroImage,
-    title: "Luxury Garden Design",
-    description: "Premium landscaping with water features and mature plants"
+    title: "Design de Jardim de Luxo",
+    description: "Paisagismo premium com fontes e plantas maduras"
   }
 ];
 
@@ -34,11 +34,11 @@ const Portfolio = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-            Our Work
+            Nossos Trabalhos
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-emerald to-accent rounded-full mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Take a look at some of our recent projects and see how we transform outdoor spaces into beautiful, functional gardens.
+            Veja alguns de nossos projetos recentes e descubra como transformamos espaços externos em jardins belos e funcionais.
           </p>
         </div>
         
@@ -66,7 +66,7 @@ const Portfolio = () => {
         
         <div className="text-center">
           <Button variant="nature" size="lg" className="px-8">
-            View All Projects
+            Ver Todos os Projetos
           </Button>
         </div>
       </div>

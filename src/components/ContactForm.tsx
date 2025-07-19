@@ -20,8 +20,8 @@ const ContactForm = () => {
     e.preventDefault();
     // Here you would typically send the form data to your backend
     toast({
-      title: "Message Sent!",
-      description: "Thank you for your message. We'll get back to you soon.",
+      title: "Mensagem Enviada!",
+      description: "Obrigado pela sua mensagem. Entraremos em contato em breve.",
     });
     setFormData({ name: "", email: "", phone: "", message: "" });
   };
@@ -38,11 +38,11 @@ const ContactForm = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-            Contact Us
+            Entre em Contato
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-emerald to-accent rounded-full mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to transform your garden? Get in touch with us for a free consultation and quote.
+            Pronto para transformar seu jardim? Entre em contato conosco para uma consulta e orçamento gratuitos.
           </p>
         </div>
         
@@ -50,15 +50,15 @@ const ContactForm = () => {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold text-primary mb-6">Get in Touch</h3>
+              <h3 className="text-2xl font-semibold text-primary mb-6">Fale Conosco</h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-emerald/10 rounded-full flex items-center justify-center">
                     <Phone className="w-6 h-6 text-emerald" />
                   </div>
                   <div>
-                    <div className="font-medium text-primary">Phone</div>
-                    <div className="text-muted-foreground">+1 (555) 123-4567</div>
+                    <div className="font-medium text-primary">Telefone</div>
+                    <div className="text-muted-foreground">+55 (11) 99999-9999</div>
                   </div>
                 </div>
                 
@@ -67,8 +67,8 @@ const ContactForm = () => {
                     <Mail className="w-6 h-6 text-emerald" />
                   </div>
                   <div>
-                    <div className="font-medium text-primary">Email</div>
-                    <div className="text-muted-foreground">info@gardencompany.com</div>
+                    <div className="font-medium text-primary">E-mail</div>
+                    <div className="text-muted-foreground">contato@empresajardinagem.com.br</div>
                   </div>
                 </div>
                 
@@ -77,8 +77,8 @@ const ContactForm = () => {
                     <MapPin className="w-6 h-6 text-emerald" />
                   </div>
                   <div>
-                    <div className="font-medium text-primary">Location</div>
-                    <div className="text-muted-foreground">Your City, State</div>
+                    <div className="font-medium text-primary">Localização</div>
+                    <div className="text-muted-foreground">Sua Cidade, Estado</div>
                   </div>
                 </div>
               </div>
@@ -92,16 +92,16 @@ const ContactForm = () => {
                     <MessageCircle className="w-6 h-6 text-emerald" />
                   </div>
                   <div className="flex-1">
-                    <div className="font-semibold text-primary">Quick Contact</div>
-                    <div className="text-sm text-muted-foreground">Message us directly on WhatsApp</div>
+                    <div className="font-semibold text-primary">Contato Rápido</div>
+                    <div className="text-sm text-muted-foreground">Envie-nos uma mensagem diretamente pelo WhatsApp</div>
                   </div>
                 </div>
                 <Button 
                   variant="hero" 
                   className="w-full mt-4"
-                  onClick={() => window.open('https://wa.me/15551234567', '_blank')}
+                  onClick={() => window.open('https://wa.me/5511999999999', '_blank')}
                 >
-                  Contact Us on WhatsApp
+                  Falar no WhatsApp
                 </Button>
               </CardContent>
             </Card>
@@ -110,12 +110,12 @@ const ContactForm = () => {
           {/* Contact Form */}
           <Card className="shadow-xl">
             <CardHeader>
-              <CardTitle className="text-xl font-semibold text-primary">Send Message</CardTitle>
+              <CardTitle className="text-xl font-semibold text-primary">Enviar Mensagem</CardTitle>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                  <Label htmlFor="name">Name</Label>
+                  <Label htmlFor="name">Nome</Label>
                   <Input
                     id="name"
                     name="name"
@@ -127,7 +127,7 @@ const ContactForm = () => {
                 </div>
                 
                 <div>
-                  <Label htmlFor="email">Email</Label>
+                  <Label htmlFor="email">E-mail</Label>
                   <Input
                     id="email"
                     name="email"
@@ -140,7 +140,7 @@ const ContactForm = () => {
                 </div>
                 
                 <div>
-                  <Label htmlFor="phone">Phone</Label>
+                  <Label htmlFor="phone">Telefone</Label>
                   <Input
                     id="phone"
                     name="phone"
@@ -152,7 +152,7 @@ const ContactForm = () => {
                 </div>
                 
                 <div>
-                  <Label htmlFor="message">Message</Label>
+                  <Label htmlFor="message">Mensagem</Label>
                   <Textarea
                     id="message"
                     name="message"
@@ -165,7 +165,7 @@ const ContactForm = () => {
                 </div>
                 
                 <Button type="submit" variant="nature" className="w-full">
-                  Send Message
+                  Enviar Mensagem
                 </Button>
               </form>
             </CardContent>

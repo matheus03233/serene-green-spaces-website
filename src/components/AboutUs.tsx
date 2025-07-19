@@ -9,23 +9,23 @@ const AboutUs = () => {
           {/* Text Content */}
           <div className="space-y-6 animate-slide-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary">
-              About Us
+              Sobre Nós
             </h2>
             <div className="w-16 h-1 bg-gradient-to-r from-emerald to-accent rounded-full"></div>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Small local company specialized in gardening and landscaping, offering personalized service and projects done with care and professionalism.
+              Pequena empresa local especializada em jardinagem e paisagismo, oferecendo atendimento personalizado e projetos executados com cuidado e profissionalismo.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              With years of experience transforming outdoor spaces, we take pride in creating beautiful, sustainable gardens that bring joy and add value to your property. Our team understands that every garden is unique, and we work closely with our clients to bring their vision to life.
+              Com anos de experiência transformando espaços externos, temos orgulho de criar jardins bonitos e sustentáveis que trazem alegria e agregam valor à sua propriedade. Nossa equipe entende que cada jardim é único, e trabalhamos em estreita colaboração com nossos clientes para dar vida à sua visão.
             </p>
             <div className="grid grid-cols-2 gap-6 pt-4">
               <div className="text-center">
                 <div className="text-3xl font-bold text-emerald">50+</div>
-                <div className="text-sm text-muted-foreground">Projects Completed</div>
+                <div className="text-sm text-muted-foreground">Projetos Concluídos</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-emerald">5+</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
+                <div className="text-sm text-muted-foreground">Anos de Experiência</div>
               </div>
             </div>
           </div>
@@ -36,7 +36,7 @@ const AboutUs = () => {
               <CardContent className="p-0">
                 <img 
                   src={landscapingWork} 
-                  alt="Professional landscaping work in progress"
+                  alt="Trabalho profissional de paisagismo em andamento"
                   className="w-full h-[400px] object-cover"
                 />
               </CardContent>

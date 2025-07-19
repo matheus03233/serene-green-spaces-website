@@ -16,22 +16,22 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto animate-fade-in">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            We Transform Your Garden Into a{" "}
+            Transformamos Seu Jardim em um{" "}
             <span className="bg-gradient-to-r from-emerald to-accent bg-clip-text text-transparent">
-              Unique and Cozy Space
+              Espaço Único e Aconchegante
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-gray-100 max-w-2xl mx-auto leading-relaxed">
-            Gardening and landscaping projects that add value to your home or business
+            Projetos de jardinagem e paisagismo que agregam valor à sua casa ou empresa
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-              Get Free Quote
+              Solicitar Orçamento Grátis
             </Button>
             <Button variant="outline-white" size="lg" className="text-lg px-8 py-6">
-              View Our Work
+              Ver Nossos Trabalhos
             </Button>
           </div>
         </div>

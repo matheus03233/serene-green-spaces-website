@@ -8,10 +8,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">Gardening and Landscaping Company</h3>
+            <h3 className="text-2xl font-bold">Empresa de Jardinagem e Paisagismo</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Transforming outdoor spaces with professional gardening and landscaping services. 
-              Your trusted partner for beautiful, sustainable gardens.
+              Transformando espaços externos com serviços profissionais de jardinagem e paisagismo. 
+              Seu parceiro de confiança para jardins bonitos e sustentáveis.
             </p>
             
             {/* Social Media */}
@@ -37,41 +37,41 @@ const Footer = () => {
           
           {/* Quick Links */}
           <div className="space-y-4">
-            <h4 className="text-lg font-semibold">Quick Links</h4>
+            <h4 className="text-lg font-semibold">Links Rápidos</h4>
             <div className="space-y-2">
               <div className="text-primary-foreground/80 hover:text-white cursor-pointer transition-colors">
-                Home
+                Início
               </div>
               <div className="text-primary-foreground/80 hover:text-white cursor-pointer transition-colors">
-                About Us
+                Sobre Nós
               </div>
               <div className="text-primary-foreground/80 hover:text-white cursor-pointer transition-colors">
-                Services
+                Serviços
               </div>
               <div className="text-primary-foreground/80 hover:text-white cursor-pointer transition-colors">
-                Portfolio
+                Portfólio
               </div>
               <div className="text-primary-foreground/80 hover:text-white cursor-pointer transition-colors">
-                Contact
+                Contato
               </div>
             </div>
           </div>
           
           {/* Contact Info */}
           <div className="space-y-4">
-            <h4 className="text-lg font-semibold">Contact Information</h4>
+            <h4 className="text-lg font-semibold">Informações de Contato</h4>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-emerald" />
-                <span className="text-primary-foreground/80">+1 (555) 123-4567</span>
+                <span className="text-primary-foreground/80">+55 (11) 99999-9999</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-emerald" />
-                <span className="text-primary-foreground/80">info@gardencompany.com</span>
+                <span className="text-primary-foreground/80">contato@empresajardinagem.com.br</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-emerald" />
-                <span className="text-primary-foreground/80">Your City, State</span>
+                <span className="text-primary-foreground/80">Sua Cidade, Estado</span>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60">
-            © 2024 Gardening and Landscaping Company. All rights reserved.
+            © 2024 Empresa de Jardinagem e Paisagismo. Todos os direitos reservados.
           </p>
         </div>
       </div>

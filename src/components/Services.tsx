@@ -4,23 +4,23 @@ import { Leaf, TreePine, Scissors, Flower } from "lucide-react";
 const services = [
   {
     icon: Leaf,
-    title: "Residential and Commercial Gardening",
-    description: "Complete gardening solutions for homes and businesses, tailored to your specific needs and environment."
+    title: "Jardinagem Residencial e Comercial",
+    description: "Soluções completas de jardinagem para casas e empresas, adaptadas às suas necessidades específicas e ambiente."
   },
   {
     icon: TreePine,
-    title: "Personalized Landscaping Projects",
-    description: "Custom landscape design and implementation that reflects your style and enhances your property value."
+    title: "Projetos Personalizados de Paisagismo",
+    description: "Design e implementação de paisagismo personalizado que reflete seu estilo e valoriza sua propriedade."
   },
   {
     icon: Scissors,
-    title: "Garden Maintenance",
-    description: "Regular upkeep and care to keep your garden healthy, beautiful, and thriving throughout the seasons."
+    title: "Manutenção de Jardins",
+    description: "Cuidados regulares e manutenção para manter seu jardim saudável, bonito e próspero durante todas as estações."
   },
   {
     icon: Flower,
-    title: "Tree and Flower Planting",
-    description: "Professional planting services with expert selection of plants that will flourish in your specific location."
+    title: "Plantio de Árvores e Flores",
+    description: "Serviços de plantio profissional com seleção especializada de plantas que prosperarão em sua localização específica."
   }
 ];
 
@@ -30,11 +30,11 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-            Our Services
+            Nossos Serviços
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-emerald to-accent rounded-full mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We offer comprehensive gardening and landscaping services to transform your outdoor space into something extraordinary.
+            Oferecemos serviços abrangentes de jardinagem e paisagismo para transformar seu espaço externo em algo extraordinário.
           </p>
         </div>
         
